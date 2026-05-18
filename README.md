@@ -30,8 +30,3 @@ Then visit `http://localhost:8000`.
 ## Note
 
 The public page includes email but excludes the phone number from the CV by default for privacy. Add it manually to `index.html` if needed.
-
-
-## Publication section updated
-
-The publications page is split into Journal Articles and Conference Papers & Presentations, with first-author and co-author works listed separately. Official publisher, NCBI/PMC, arXiv, and DOI links are included where verified.
