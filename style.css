@@ -282,10 +282,13 @@ h3 { font-size: 1.08rem; margin-bottom: 8px; }
   color: white;
   background: var(--primary);
 }
-.reference-card {
-  display: block;
-  width: 100%;
-  max-width: none;
+
+/* Reference section: final full-width layout after removing professor photo/details */
+.reference-card,
+.reference-card-wide {
+  display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
   background: var(--surface);
   border: 1px solid var(--line);
   border-radius: var(--radius);
@@ -293,9 +296,13 @@ h3 { font-size: 1.08rem; margin-bottom: 8px; }
   padding: 28px;
   margin-bottom: 22px;
 }
-.reference-card > div {
-  width: 100%;
-  max-width: none;
-}
-.reference-card p { color: var(--muted); margin: 6px 0; }
 
+.reference-card h3,
+.reference-card p {
+  max-width: none !important;
+}
+
+.reference-card p {
+  color: var(--muted);
+  margin: 6px 0;
+}
